@@ -1,0 +1,14 @@
+body{
+    color: rgb(51, 51, 51);
+    background-color: rgb(238, 238, 238);
+}
+
+article{
+    margin: auto;
+    width: 60%;
+}
+
+article section img{
+    display: block;
+    width: 60%;
+}
