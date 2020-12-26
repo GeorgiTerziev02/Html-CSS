@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css');
+
+body{
+    margin: 0;
+}
+
+h1, h3{
+    font-family: 'Montserrat';
+}
+
+body{
+    font-family: 'Lato';
+    color: #7B8082;
+}
+
+i{
+    color: lightskyblue;
+    margin-right: 10px;
+}
+
+.container{
+    margin: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.include-topics-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 35px;
+    background-color: #E3F3FD;
+    border-radius: 10px;
+    width: 40%;
+    box-shadow: 4px 5px 21px -6px rgba(0,0,0,0.75);
+}
+
+.included-topics-header{
+    color: #536272;
+    font-weight: 600;
+    font-size: 23px;
+    margin-bottom: 0;
+}
+
+.included-topics-list{
+    list-style: none;
+    padding-inline-start: 0;
+}
+
+.included-topics-list li{
+    margin: 10px 0px;
+}
+
+.enroll-container{
+    padding: 50px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 8px;
+    border: 5px solid #46A9F8;
+    width: 40%;
+    align-items: center;
+}
+
+.enroll-container h3{
+    display: inline;
+    font-size: 40px;
+    font-weight: 600;
+    padding: 5px;
+    color: #46A9F8;
+}
+
+.enroll-container button{
+    border: none;
+    border-radius: 5px;
+    background-color: #46A9F8;
+    outline: none;
+    color: white;
+    padding: 10px 40px;
+    width: fit-content;
+    box-shadow: 4px 5px 11px -6px rgba(0,0,0,0.75);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.enroll-container button:hover{
+    background-color: red;
+}

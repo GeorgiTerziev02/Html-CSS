@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css');
+
+body{
+    margin: 0;
+}
+
+h1, h3{
+    font-family: 'Montserrat';
+}
+
+body{
+    font-family: 'Lato';
+    color: #7B8082;
+    background-color: #FFFFFF;
+}
+
+
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    width: 90%;
+    padding: 5px 2em;
+    margin: 0 auto;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 4px 11px -6px #000000;
+}
+
+.logo-container{
+    width: 10%;
+}
+
+.navigation-links-container-list{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.navigation-links-container-list li{
+    color: #7C8187;
+    font-weight: 600;
+    list-style-type: none;
+    margin: 0 10px;
+}
+
+.navigation-links-container-list li:last-child{
+    color: white;
+    font-weight: 400;
+    padding: 11px 10px;
+    border-radius: 40px;
+    background-color: #41ABF4;
+    box-shadow: 0px 4px 18px -1px #41ABF4;
+}
+
+
+
+
+.footer-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-top: 1px solid grey;
+}
+
+.footer-logo-container{
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
+}
+
+.footer-logo-container img{
+    width: 100%;
+}
+
+.footer-links-list{
+    display: flex;
+    list-style-type: none;
+}
+
+.footer-links-list li{
+    color: #7A7E81;
+    font-weight: 600;
+    margin: 0 5px;
+}

@@ -1,0 +1,41 @@
+/* TODO: Add media queries */
+@media all and (max-width: 600px){
+    .wrapper{
+        padding: 0;
+    }
+    .thumbnails{
+        display: block;
+    }
+    .thumbnails div{
+        display: flex;
+        width: 90%;
+        margin: 15px 0px;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .thumbnails div a{
+        margin: 5%;
+    }
+    .thumbnails div a img {
+        height: 320px;
+        object-fit: revert;
+    }
+    .icons li{
+        font-size: 18px;
+    }
+
+    footer p a{
+        display: inline-block;
+    }
+/* 
+    .thumbnails div a{
+        display: block;
+        width: 100%;
+    } */
+
+    /* .thumbnails div a{
+        display: flex;
+        flex-direction: column;
+        background-color: red;
+    } */
+}
