@@ -10,11 +10,16 @@ h1, h3{
     font-family: 'Montserrat';
 }
 
+button{
+    outline: none;
+}
+
 body{
     font-family: 'Lato';
     color: #7B8082;
     background-color: #FFFFFF;
 }
+
 
 
 .navigation{
@@ -55,8 +60,184 @@ body{
     box-shadow: 0px 4px 18px -1px #41ABF4;
 }
 
+@media all and (max-width: 676px){
+    .navigation{
+        padding: 0;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo-container{
+        margin-top: 15px;
+        width: 100px;
+    }
+    .navigation-links-container-list{
+        flex-direction: column;
+        padding-inline-start: 0px;
+    }
+    .navigation-links-container-list li{
+        margin: 10px;
+    }
+}
 
 
+.certificates-section{
+    width: 85%;
+    margin: 80px auto;
+    display: flex;
+    align-items: end;
+}
+
+.certificates-section::after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 55vh;
+    width: 100%;
+    background: linear-gradient(rgba(255,255,255,.9), rgba(255,255,255,.9)), url(./images/hero-certificates.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: '';
+    z-index: -1;
+}
+
+.certificates-general-info{
+    color: white;
+    background-color: #29384B;
+    padding: 1px 20px 30px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 11px -6px #000000;
+    width: 80%;
+}
+
+.certifactes-additional-info{
+    font-style: italic;
+    font-weight: 500;
+}
+
+.certificates-images{
+    display: flex;
+    align-items: flex-end;
+}
+
+@media all and (max-width: 1225px){
+    .certificates-section{
+        flex-direction: column;
+    }
+    .certificates-general-info{
+        width: 90%;
+    }
+    .certificates-images{
+        display: none;
+    }
+    
+    .certificates-section::after{
+        height: 780px;
+    }
+}
+
+/* @media all and (max-width: 676px){
+} */
+
+
+.diploma-section{
+    color: #58616D;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    margin: 120px auto;
+    text-align: left;
+    width: 90%;
+}
+
+.diploma-section h3{
+    text-align: center;
+    font-weight: 500;
+    font-size: 23px;
+}
+
+.diploma-section-info{
+    background-color: #F4F6F5;
+    padding: 10px 20px 35px 20px;
+    font-size: 22px;
+}
+
+.diploma-section-additional-information{
+    font-weight: 600;
+}
+
+@media all and (max-width: 676px){
+    .diploma-section{
+        margin: 30px auto;
+    }
+}
+
+
+.apply-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 60px auto;
+    width: 89%;
+    color: #F2F7FA;
+    border-radius: 8px;
+    padding: 40px 10px; 
+    height: 200px;
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(./images/sign-up-prompt-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.apply-section-text{
+    margin: 10px 0 30px 0;
+}
+
+.apply-section-buttons{
+    display: flex;
+    max-width: 400px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.apply-button{
+    color: #41ABF4;
+    background-color: #F2F7FA;
+    border-radius: 10px;
+    border: none;
+    padding: 12px 40px;
+    margin: 5px;
+}
+
+.separator-line{
+    margin: 0 10px;
+    border: 1px solid;
+    height: 30px;
+    width: 0;
+    justify-self: center;
+}
+
+.curriculum-button{
+    background-color: transparent;
+    border: 2px solid #F2F7FA;
+    border-radius: 10px;
+    color: #F2F7FA;
+    padding: 12px 40px;
+}
+
+@media all and (max-width: 676px){
+    .apply-section{
+        padding: 10px;
+        height: 300px;
+    }
+    .apply-section-buttons{
+        flex-direction: column;
+        text-align: center;
+    }
+    .separator-line{
+        display: none;
+    }
+}
 
 .footer-wrapper{
     display: flex;
@@ -66,7 +247,6 @@ body{
     padding: 20px 0;
     width: 90%;
     margin: 0 auto;
-    margin-top: 100px;
     border-top: 1px solid grey;
 }
 
@@ -80,6 +260,12 @@ body{
     width: 100%;
 }
 
+.footer-links-wrapper{
+    display: flex;
+    width: 89%;
+    justify-content: space-between;
+}
+
 .footer-links-list{
     display: flex;
     list-style-type: none;
@@ -89,4 +275,20 @@ body{
     color: #7A7E81;
     font-weight: 600;
     margin: 0 5px;
+}
+
+@media all and (max-width: 676px){
+    .footer-wrapper{
+        display: block;
+    }
+    .footer-logo-container{
+        width: 100px;
+    }
+    .footer-links-wrapper{
+        display: block;
+    }
+    .footer-links-list{
+        flex-wrap: wrap;
+        padding-left: 0;
+    }
 }
