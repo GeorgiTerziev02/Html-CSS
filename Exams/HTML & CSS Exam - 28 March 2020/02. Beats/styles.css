@@ -44,6 +44,17 @@ p {
     font-weight: 700;
 }
 
+@media all and (max-width: 566px) {
+    .navigation-links {
+        flex-direction: column;
+        padding-left: 0;
+        margin: 15px 25px;
+    }
+    .navigation-links li {
+        margin: 7px auto;
+    }
+}
+
 .solo-wireless {
     margin: 4% 0;
     display: flex;
@@ -67,6 +78,23 @@ p {
 
 .solo-wireless-image-wrapper img {
     width: 100%;
+}
+
+@media all and (max-width: 850px) {
+    .solo-wireless {
+        flex-direction: column;
+        text-align: center;
+    }
+    .solo-wireless-info {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .solo-wireless-info p {
+        margin: 15px auto;
+    }
+    .solo-wireless-image-wrapper {
+        margin-top: 20px;
+    }
 }
 
 .powerbeats {
@@ -106,10 +134,37 @@ p {
 }
 
 @media all and (max-width: 1080px) {
+    .powerbeats {
+        flex-direction: column;
+    }
+    .powerbeats-info div h1 {
+        font-size: xx-large;
+        font-weight: 400;
+        margin: 0;
+    }
+    .powerbeats-info-subheadings h2 {
+        margin: 0;
+    }
+    .powerbeats-image-wrapper {
+        width: 100%;
+        margin: auto;
+    }
+    .price-wrapper b {
+        font-size: 35px;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    .powerbeats-info {
+        width: 90%;
+        margin: 25px auto;
+    }
     .powerbeats-info-subheadings {
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
+    }
+    .price-wrapper {
+        flex-direction: column;
     }
 }
 
@@ -172,9 +227,19 @@ p {
     padding-bottom: 10px;
     width: fit-content;
     margin: 0 auto;
-    margin-top: 60px;
+    margin-top: 50px;
     font-size: x-large;
     font-weight: 600;
+}
+
+@media all and (max-width: 672px) {
+    .try-beats-header {
+        flex-direction: column;
+    }
+    .try-beats-header h1 {
+        margin: 10px auto;
+        font-size: xx-large;
+    }
 }
 
 .give-life {
@@ -227,6 +292,18 @@ p {
 
 .give-life-info-image-wrapper img {
     width: 100%;
+}
+
+@media all and (max-width: 672px) {
+    .give-life {
+        flex-direction: column;
+    }
+    .give-life-image-wrapper {
+        width: 100%;
+    }
+    .give-life-info {
+        width: 100%;
+    }
 }
 
 footer p {
