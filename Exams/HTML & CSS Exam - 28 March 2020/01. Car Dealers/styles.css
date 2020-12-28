@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css');
+
+body{
+    margin: 0;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.main-header{
+    text-align: center;
+    font-weight: 500;
+    margin: 70px auto;
+}
+
+.main-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0 auto;
+    width: 65%;
+}
+
+.main-info{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    color: #7C707E;
+}
+
+.main-info h3{
+    margin: 0;
+    font-weight: 700;
+}
+
+.main-info p,
+.main-info h3{
+    line-height: 1.7;
+}
+
+.attribute{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.attribute img{
+    object-fit: scale-down;
+    margin-right: 10px;
+    max-width: 60px;
+}
+
+.attribute h4,
+.attribute p{
+    margin: 9px;
+}
+
+.image-wrapper{
+    max-width: 600px;
+}
+
+.image-wrapper img{
+    width: 100%
+}
