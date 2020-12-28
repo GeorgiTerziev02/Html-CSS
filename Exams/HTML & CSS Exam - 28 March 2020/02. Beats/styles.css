@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+body {
+    margin: 0;
+    font-family: 'Open Sans';
+}
+
+h1,
+h2,
+h3,
+h4,
+a,
+button {
+    text-transform: uppercase;
+}
+
+p {
+    line-height: 1.8;
+    margin: 35px 0px;
+    font-size: 23px;
+    text-align: left;
+}
+
+.button-red {
+    outline: none;
+    background-color: #FF0000;
+    border: none;
+    border-radius: 25px;
+    color: #FFDDDD;
+    padding: 17px 60px;
+    cursor: pointer;
+    font-size: medium;
+}
+
+.navigation-links {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 25px;
+}
+
+.navigation-links li {
+    list-style-type: none;
+    color: #9D9D9D;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.solo-wireless {
+    margin: 4% 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.solo-wireless-info {
+    width: 32%;
+    margin-left: 7%;
+}
+
+.solo-wireless-info h1 {
+    font-weight: 300;
+    font-size: 40px;
+}
+
+.solo-wireless-image-wrapper {
+    width: 55%;
+}
+
+.solo-wireless-image-wrapper img {
+    width: 100%;
+}
+
+.powerbeats {
+    background-color: #FBFCFF;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 5% 0;
+}
+
+.powerbeats h1 {
+    font-weight: 400;
+}
+
+.powerbeats-info {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.powerbeats-info h1 {
+    font-size: 6vw;
+    font-weight: 300;
+    margin: 0;
+}
+
+.powerbeats-info-subheadings {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 6%;
+}
+
+.powerbeats-info-subheadings h2 {
+    font-weight: lighter;
+    margin: 0 3px;
+}
+
+@media all and (max-width: 1080px) {
+    .powerbeats-info-subheadings {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+}
+
+.powerbeats-info-subheadings h2:first-child {
+    font-weight: bolder;
+}
+
+.powerbeats-info p {
+    font-size: x-large;
+}
+
+.powerbeats-image-wrapper {
+    width: 38%;
+}
+
+.powerbeats-image-wrapper img {
+    width: 100%;
+}
+
+.price-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.price-tag {
+    font-size: 2.5vw;
+    margin-right: 5%;
+}
+
+.try-beats {
+    background-color: #575757;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 42px 0;
+}
+
+.try-beats-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.try-beats-header h1 {
+    margin-left: 25px;
+    font-size: xx-large;
+}
+
+.try-beats h1 {
+    font-weight: lighter;
+}
+
+.try-beats a {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 60px;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.give-life {
+    display: flex;
+}
+
+.give-life-image-wrapper {
+    width: 50%;
+}
+
+.give-life-image-wrapper img {
+    width: 100%;
+}
+
+.give-life-info {
+    width: 50%;
+    background-color: #DADADA;
+    display: flex;
+}
+
+.give-life-info-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: auto;
+}
+
+.give-life-info-header h1 {
+    margin: 0;
+    font-size: 9vw;
+    color: #333333;
+}
+
+.give-life-info-header h2 {
+    font-size: 3vw;
+    text-transform: lowercase;
+    font-weight: 300;
+    margin: 0 0 0 10px;
+}
+
+.give-life-info-header h2 b {
+    color: #FF0000;
+    text-transform: uppercase;
+}
+
+.give-life-info-image-wrapper {
+    width: 35%;
+    margin: auto 0 auto auto;
+}
+
+.give-life-info-image-wrapper img {
+    width: 100%;
+}
+
+footer p {
+    text-align: center;
+}
